@@ -1,0 +1,130 @@
+.container-header {
+    grid-template-columns: 50% 50%;
+    max-width: 1280px;
+    width: 100%;
+}
+
+.container-main {  
+    background-color: white;
+    max-width: 1280px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.container-produto {  
+    max-width: 1280px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+@media (min-width: 641px) and (max-width: 1024px) {
+    .container-main {
+        grid-template-columns: 100%;
+    }
+    .container-produto {
+        grid-template-columns: 50% 50%;
+    }
+}
+
+@media (max-width: 640px) {
+    .container-main {
+        grid-template-columns: 100%;
+    }
+    .container-produto {  
+        grid-template-columns: 100%;
+    }
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    line-height: 16px;
+    background-color: #c6e8d1;
+}
+
+/* Header */
+header {
+    background-color: #a6e07c;
+    padding: 20px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 3rem;
+    color: #333;
+}
+
+header nav li {
+    margin: 20px;
+    font-size: 2rem;
+    display: flex;
+    float: left;
+}
+
+header nav li a {
+    color:#ecf0f1;
+    text-decoration: none;
+}
+
+
+
+
+
+/* Are Sobre */
+.container-main img {
+    max-height: 500px;
+    align-items: center;
+}
+
+.container-main div {
+    margin: 20px;
+    height: auto;
+    text-align: justify;
+}
+
+.container-main div h2 {
+    margin: 20px 0px;
+    height: auto;
+}
+
+
+
+
+header .container-header, 
+section .container-main, 
+section .container-produto {
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.item-main {
+    height: 400px;
+}
+
+.item-produto {
+    height: 200px;
+}
