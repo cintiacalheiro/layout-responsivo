@@ -21,8 +21,7 @@ section .container-produto {
 }   
 
 
-/* ========================================================================== */
-/* Header */
+
 .container-header {
     grid-template-columns: 50% 50%;
     max-width: 1280px;
@@ -62,8 +61,7 @@ header nav li a {
 }
 
 
-/* ========================================================================== */
-/* Are Sobre */
+
 .container-main {  
     min-height: 400px;
     grid-template-columns: 30% 70%;
@@ -85,8 +83,6 @@ header nav li a {
 }
 
 
-/* ========================================================================== */
-/* Produtos */
 section h2 {
     padding: 10px 0px;
 }
@@ -132,7 +128,7 @@ button {
 }
 
 
-/* ========================================================================== */
+
 @media (min-width: 641px) and (max-width: 1280px) {
     * {
         justify-self: center;
